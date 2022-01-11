@@ -191,7 +191,6 @@ async function run() {
     core.debug(`param: repositoryUsername = "${repositoryUsername}"`);
     core.debug(`param: repositoryPassword = "${repositoryPassword}"`);
     core.debug(`param: atomic = "${atomic}"`);
-    core.debug(`param: appVersion = "${appVersion}"`)
 
 
     // Setup command options and arguments.
