@@ -14,6 +14,15 @@ inputs:
     description: Helm chart path. If set to "app" this will use the built in helm
       chart found in this repository. (required)
     required: true
+  repository:
+    description: Helm repository URL to source the chart from
+    required: false
+  repository-username:
+    description: Username for authentication with Helm repository
+    required: false
+  repository-password:
+    description: Password for authentication with Helm repository
+    required: false
   values:
     description: Helm chart values, expected to be a YAML or JSON string.
     required: false
